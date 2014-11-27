@@ -1,4 +1,9 @@
-class @Viewport
+@.LazyLoadNS=@.LazyLoadNS or {}
+
+class Viewport
+
+  Rectangle=LazyLoadNS.Rectangle
+
   constructor:->
 
   rectangle:->
@@ -7,3 +12,5 @@ class @Viewport
     width=window.innerWidth
     height=window.innerHeight
     new Rectangle(left, top, width, height)
+
+LazyLoadNS.Viewport=Viewport

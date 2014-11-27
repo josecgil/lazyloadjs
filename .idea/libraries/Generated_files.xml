@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/spec/RectangleSpec.js" />
+        <item url="file://$PROJECT_DIR$/src/Image.js" />
+        <item url="file://$PROJECT_DIR$/src/lazy-load.js" />
+        <item url="file://$PROJECT_DIR$/src/viewport.js" />
+        <item url="file://$PROJECT_DIR$/src/Point.js" />
+        <item url="file://$PROJECT_DIR$/src/Rectangle.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/spec/RectangleSpec.js" />
+      <root url="file://$PROJECT_DIR$/src/Image.js" />
+      <root url="file://$PROJECT_DIR$/src/lazy-load.js" />
+      <root url="file://$PROJECT_DIR$/src/Point.js" />
+      <root url="file://$PROJECT_DIR$/src/viewport.js" />
+      <root url="file://$PROJECT_DIR$/src/Rectangle.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

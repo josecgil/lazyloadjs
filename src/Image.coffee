@@ -1,4 +1,9 @@
-class @Image
+@.LazyLoadNS=@.LazyLoadNS or {}
+
+class Image
+
+  Rectangle=LazyLoadNS.Rectangle
+  Viewport=LazyLoadNS.Viewport
 
   constructor:(imageElement, @_loadingImage)->
     @_imageElement=$(imageElement)
@@ -26,3 +31,5 @@ class @Image
     realSrc=@_imageElement.attr("data-src")
     @_imageElement.get(0).src = realSrc
     @_imageElement.removeAttr("data-src")
+
+LazyLoadNS.Image=Image

@@ -1,4 +1,8 @@
-class @Rectangle
+@.LazyLoadNS=@.LazyLoadNS or {}
+
+Point=LazyLoadNS.Point
+
+class Rectangle
 
   constructor:(@left, @top, @width, @height)->
 
@@ -28,5 +32,4 @@ class @Rectangle
 
     false
 
-class @Point
-  constructor:(@x, @y)->
+LazyLoadNS.Rectangle=Rectangle

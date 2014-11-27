@@ -4,6 +4,9 @@ describe "Rectangle", ->
 
   afterEach ->
 
+  Rectangle=LazyLoadNS.Rectangle
+  Point=LazyLoadNS.Point
+
   it "must create a correct rectangle with constructor", () ->
     rectangle=new Rectangle 0,10,20,30
     expect(rectangle.left).toBe 0
