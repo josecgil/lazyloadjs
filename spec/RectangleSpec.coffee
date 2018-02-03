@@ -56,3 +56,4 @@ describe "Rectangle", ->
     bigRectangle=new Rectangle 100,100,200,200
     smallRectangle=new Rectangle 301,301,100,100
     expect(bigRectangle.hasCollisionWithRectangle(smallRectangle)).toBeFalsy()
+

@@ -33,4 +33,3 @@ class Rectangle
     false
 
 LazyLoadNS.Rectangle=Rectangle
-

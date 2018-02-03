@@ -41,4 +41,3 @@ class Image
     @_imageElement.removeAttribute("cancelled")
 
 LazyLoadNS.Image=Image
-
